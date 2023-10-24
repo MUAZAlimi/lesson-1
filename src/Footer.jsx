@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
         <p>
-            Copyright &copy; {today.getFullYear()}
+            Copyright &copy; {today.getMonth()}/{today.getDate()}/{today.getFullYear()}
         </p>
     </footer>
   )

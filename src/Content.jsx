@@ -20,7 +20,7 @@ const Content = () => {
             <p> 
                 Hello Mr {handleNameChange()} 💯🤑🎊😎
             </p>
-            <button onClick={handleClick} >  CLICK  </button><hr />
+            <button onClick={handleClick}>CLICK TO START</button><hr />
             <button onClick={() => handleClickOne("Muaz")} >CLICK NAME</button><hr />
             <button onClick={(e) => handleClickTwo(e)}>CLICK NOW</button>
         </main>
